@@ -2,5 +2,6 @@
   "Main": "Main",
   "toggle": "toggle",
   "About": "About",
-  "Language": "Eng"
+  "Language": "Eng",
+  "Loading...": "Loading..."
 }

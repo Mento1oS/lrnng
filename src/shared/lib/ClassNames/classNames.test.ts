@@ -10,10 +10,12 @@ describe('classNames', () => {
     });
     test('with conditional classes', () => {
         const expected = 'someClass man Lol';
-        expect(classNames('someClass', { man: true, fuck: undefined }, ['Lol'])).toBe(expected);
+        expect(classNames('someClass', { man: true, fuck: undefined }, ['Lol']))
+            .toBe(expected);
     });
     test('with additional classes', () => {
         const expected = 'someClass man fuck Lol leave';
-        expect(classNames('someClass', { man: true, fuck: true }, ['Lol', 'leave'])).toBe(expected);
+        expect(classNames('someClass', { man: true, fuck: true }, ['Lol', 'leave']))
+            .toBe(expected);
     });
 });

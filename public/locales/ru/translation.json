@@ -4,5 +4,7 @@
   "About": "О сайте",
   "Language": "Рус",
   "Loading...": "Загрузка...",
-  "Page was not found": "Страница не найдена"
+  "Page was not found": "Страница не найдена",
+  "An error has occurred": "Проиозошла ошибка",
+  "Reload the page": "Перезагрузить страницу"
 }

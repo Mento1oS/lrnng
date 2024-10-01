@@ -4,7 +4,7 @@ import { Theme, useTheme } from 'app/providers/ThemeProvider';
 import DarkPicture from 'shared/assets/icons/theme-dark.svg';
 import LightPicture from 'shared/assets/icons/theme-light.svg';
 import { AppButton, ThemeAppButton } from 'shared/ui/AppButton/AppButton';
-import * as cls from './ThemeSwitcher.module.scss';
+import cls from './ThemeSwitcher.module.scss';
 
 interface ThemeSwitcherProps {
     className?: string;
